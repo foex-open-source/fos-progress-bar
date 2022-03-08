@@ -1,0 +1,142 @@
+.fos-prb-container {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+
+.fos-prb-pct-box, .fos-prb-msg-box {
+    padding: 0 5px;
+    margin: auto;
+    text-align: center;
+    /* display: block; */
+}
+
+.fos-prb-on-element .fos-prb-pct-box, .fos-prb-on-element .fos-prb-msg-box {
+    margin: unset;
+    display: inline-block;
+}
+
+.fos-prb-msg {
+    padding: 0 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.fos-prb-text {
+    display: inline-block;
+}
+
+/* Line */
+div.t-Form-fieldContainer .fos-prb-wrapper.fos-prb-line  {
+    height: 24px;
+}
+
+div.t-Form-fieldContainer--large.t-Form-fieldContainer .fos-prb-wrapper.fos-prb-line  {
+    height: 28px;
+}
+
+div.t-Form-fieldContainer--xlarge.t-Form-fieldContainer .fos-prb-wrapper.fos-prb-line  {
+    height: 32px;
+}
+
+/* Circle */
+div.t-Form-fieldContainer .fos-prb-wrapper.fos-prb-circle {
+    height: 104px;
+}
+
+div.t-Form-fieldContainer--large.t-Form-fieldContainer .fos-prb-wrapper.fos-prb-circle {
+    height: 112px;
+}
+
+div.t-Form-fieldContainer--xlarge.t-Form-fieldContainer .fos-prb-wrapper.fos-prb-circle {
+    height: 120px;
+}
+
+/* Semi-circle */
+div.t-Form-fieldContainer .fos-prb-wrapper.fos-prb-semi-circle {
+    height: 104px;
+}
+
+div.t-Form-fieldContainer--large.t-Form-fieldContainer .fos-prb-wrapper.fos-prb-semi-circle {
+    height: 112px;
+}
+
+div.t-Form-fieldContainer--xlarge.t-Form-fieldContainer .fos-prb-wrapper.fos-prb-semi-circle {
+    height: 120px;
+}
+
+/* Custom */
+div.t-Form-fieldContainer .fos-prb-wrapper.fos-prb-custom {
+    height: 104px;
+    width: 100%;
+}
+
+div.t-Form-fieldContainer--large.t-Form-fieldContainer .fos-prb-wrapper.fos-prb-custom {
+    height: 112px;
+    width: 100%;
+}
+
+div.t-Form-fieldContainer--xlarge.t-Form-fieldContainer .fos-prb-wrapper.fos-prb-custom {
+    height: 120px;
+    width: 100%;
+}
+
+.fos-prb-wrapper.fos-prb-custom svg {
+    width: 100%;
+    height: 100%;
+}
+
+/* on-element */
+.fos-prb-on-element {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%)
+}
+
+.fos-prb-semi-circle .fos-prb-on-element {
+    position: absolute;
+    left: 50%;
+    top: 50%!important;
+    padding: 0;
+    margin: 0;
+}
+
+/* above-element */
+.fos-prb-line .fos-prb-above-element {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.fos-prb-circle .fos-prb-above-element {
+    position: absolute;
+    left: 49%;
+    top: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.fos-prb-semi-circle .fos-prb-above-element {
+    position: absolute;
+    left: 49%;
+    top: 0!important;
+    padding: 0;
+    margin: 0;
+    transform: unset!important;
+}
+
+/* below-element */
+.fos-prb-below-element {
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    transform: unset!important;
+}
+
+
