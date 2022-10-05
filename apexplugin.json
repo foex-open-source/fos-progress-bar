@@ -1,6 +1,6 @@
 {
     "name":"FOS - Progress Bar"
-   ,"version":"21.2.0"
+   ,"version":"22.1.0"
    ,"description":"A well-known progress-bar item extended with various shapes and animations.\r\n\u003Ch4\u003EFree Plug-in under MIT License\u003C\/h4\u003E\r\n\u003Cp\u003E\r\nAll FOS plug-ins are released under MIT License, which essentially means it is free for everyone to use, no matter if commercial or private use. \r\n\u003C\/p\u003E\r\n\u003Ch4\u003EOverview\u003C\/h4\u003E\r\n\u003Cp\u003EThe \u003Cstrong\u003EFOS - Progress Bar\u003C\/strong\u003E item plug-in offers a visually impressive and flexible way to display progress within your APEX applications. You can customize the display type, colors, animations, messages, automated refreshing, and more....\u003C\/p\u003E\r\n\u003Cp\u003EThe plug-in is built on top of the open source \u003Ca href=\"https:\/\/kimmobrunfeldt.github.io\/progressbar.js\/\" target=\"_blank\"\u003EProgressBar.js\u003C\/a\u003E javascript library, which makes it possible to implement responsive and slick progress bars with animated SVG paths.\u003C\/p\u003E"
    ,"keywords":[
         "progress-bar"

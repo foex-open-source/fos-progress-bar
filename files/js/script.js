@@ -55,6 +55,8 @@ FOS.item.progressBar = (function () {
             initJS.call(this, config);
         }
 
+        console.log('config', config)
+
         let itemName = config.name;
         let item$ = $('#' + itemName);
         let itemContainer$ = $('#' + itemName + '_CONTAINER');
@@ -306,21 +308,18 @@ FOS.item.progressBar = (function () {
             interval = setInterval(function () {
                 counter++;
                 if (config.repetitions == 'progress-is-complete') {
-                    if (parseInt(apex.item(itemName).getValue()) >= 100) {
+                    if (parseInt(apex.item(itemName).getValue()) >= 100 || counter > config.lastEndInterval) {
                         endInterval(interval);
                         return;
                     }
+
                 } else if (config.repetitions == 'number-of-repetitions') {
-                    if (numOfReps <= counter) {
+                    if (numOfReps <= counter || parseInt(apex.item(itemName).getValue()) >= 100) {
                         endInterval(interval);
                         return;
                     }
                 }
 
-                if (counter > config.lastEndInterval) {
-                    endInterval(interval);
-                    return;
-                }
                 apex.item(itemName).refresh();
             }, intervalS);
         }
